@@ -187,7 +187,7 @@
         font-size:30px;
     }
     #home div:last-child{
-        bottom: -70px;
+        bottom: -95px;
     }
     #home div:nth-child(2){
         left:20%;
@@ -199,6 +199,9 @@
 @media only screen and (max-width:350px){
     #home div:nth-child(2){
         left:15%;
+    }
+    #home div:last-child{
+        bottom: -60px;
     }
 }
 #about{
