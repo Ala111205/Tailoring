@@ -191,7 +191,7 @@
         font-size:30px;
     }
     #home div:last-child{
-        bottom: -60px;
+        bottom: 0px;
     }
     #home div:nth-child(2){
         left:20%;
