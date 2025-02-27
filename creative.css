@@ -10,9 +10,6 @@
     --sicolor:silver;
     color:deeppink;
 }
-.web{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .container-fluid{
     min-width:100%;
     min-height:100vh;
