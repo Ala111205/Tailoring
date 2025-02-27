@@ -10,6 +10,9 @@
     --sicolor:silver;
     color:deeppink;
 }
+.web{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .container-fluid{
     min-width:100%;
     min-height:100vh;
@@ -23,6 +26,7 @@
 .navbar{
     width:100%;
     height:70px;
+    font-family:'Times New Roman', Times, serif;
     background-color:var(--pcolor);
     color:var(--scolor);
     display:flex;
@@ -187,7 +191,7 @@
         font-size:30px;
     }
     #home div:last-child{
-        bottom: -94px;
+        bottom: -60px;
     }
     #home div:nth-child(2){
         left:20%;
