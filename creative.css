@@ -188,18 +188,13 @@
         font-size:30px;
     }
     #home div:last-child{
-        bottom: -90px;
+        bottom: 95px;
     }
     #home div:nth-child(2){
         left:20%;
     }
     #home div:last-child{
         left: 40%;
-    }
-}
-@media only screen and (max-width:350px){
-    #home div:last-child{
-        bottom: 95px;
     }
 }
 @media only screen and (max-width:350px){
