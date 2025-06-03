@@ -210,14 +210,6 @@
         left: 40%;
     }
 }
-@media only screen and (max-width:350px){
-    #home div:nth-child(2){
-        left:15%;
-    }
-    #home div:last-child{
-        bottom: -156px;
-    }
-}
 #about{
     min-height: 400px;
     padding:20px;
