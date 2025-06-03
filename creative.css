@@ -113,6 +113,7 @@
     min-width:100%;
     min-height:600px;
     margin-top:70px;
+    position: relative;
 }
 #home>img{
     width:100%;
@@ -141,8 +142,8 @@
 }
 #home div:last-child{
     position:absolute;
-    bottom: -70px;
-    left: 48%;
+    bottom: -40px;
+    left: 47%;
     font-size: 50px;
     color: var(--tcolor);
 }
@@ -160,9 +161,6 @@
     #home{
         min-width:103%;
     }
-    #home div:last-child{
-        bottom: -168px;
-    }
 }
 @media only screen and (max-width:1000px){
     #home div:nth-child(2) h1{
@@ -178,7 +176,7 @@
         left:35%;
     }
     #home div:last-child{
-        left: 48%;
+        left: 47%;
     }
 } 
 @media only screen and (max-width:750px){
@@ -187,7 +185,8 @@
         left:28%;
     }
     #home div:last-child{
-        left: 45%;
+        left: 43%;
+        font-size: 35px;
     }
 }
 @media only screen and (max-width:500px){
@@ -200,19 +199,11 @@
     #home div:last-child .fa-thumbtack{
         font-size:30px;
     }
-    #home div:last-child{
-        bottom: -156px;
-    }
     #home div:nth-child(2){
         left:20%;
     }
     #home div:last-child{
         left: 40%;
-    }
-}
-@media only screen and (max-width:400px){
-    #home div:last-child{
-        bottom: -76px;
     }
 }
 
